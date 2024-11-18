@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PropSpin : MonoBehaviour
 {
@@ -11,6 +12,6 @@ public class PropSpin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 0, 3);
+        transform.Rotate(0, 2.2f, 0);
     }
 }
